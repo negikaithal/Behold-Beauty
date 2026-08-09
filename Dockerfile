@@ -28,14 +28,16 @@ COPY . .
 # Install PHP packages
 RUN composer install --no-dev --optimize-autoloader
 
-# Directory permissions
-RUN chmod -R 777 storage bootstrap/cache database
-
-# Setup SQLite database & seed
+# Setup SQLite database & env & seed
 RUN cp .env.example .env \
     && touch database/database.sqlite \
     && php artisan key:generate \
-    && php artisan migrate --force --seed
+    && php artisan migrate --force --seed \
+    && php artisan config:clear \
+    && php artisan cache:clear
+
+# Directory permissions for Nginx & PHP-FPM
+RUN chmod -R 777 storage bootstrap/cache database
 
 # Copy Docker Nginx & Supervisor configs
 COPY docker/nginx.conf /etc/nginx/nginx.conf
