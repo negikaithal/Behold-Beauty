@@ -32,7 +32,8 @@ RUN composer install --no-dev --optimize-autoloader
 RUN chmod -R 777 storage bootstrap/cache database
 
 # Setup SQLite database & seed
-RUN touch database/database.sqlite \
+RUN cp .env.example .env \
+    && touch database/database.sqlite \
     && php artisan key:generate \
     && php artisan migrate:force --seed
 
