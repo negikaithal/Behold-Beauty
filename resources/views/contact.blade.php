@@ -22,7 +22,7 @@
                         <div style="font-size: 1.8rem; color: var(--gold-primary);">📍</div>
                         <div>
                             <strong style="display: block; font-size: 1.1rem;">Studio Address</strong>
-                            <p style="color: var(--text-secondary);">104 Luxury Square, Studio #4, MG Road, New Delhi 110001</p>
+                            <p style="color: var(--text-secondary);">926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</p>
                         </div>
                     </div>
 

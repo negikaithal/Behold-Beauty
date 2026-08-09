@@ -21,7 +21,7 @@
     <div class="navbar-top">
         <div class="container">
             <div class="nav-contact-info">
-                <span>📍 104 Luxury Square, MG Road, Studio #4, New Delhi</span>
+                <span>📍 926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</span>
                 <span>📞 +91 88821 23089</span>
                 <span>⏰ Mon - Sun: 10:00 AM - 8:00 PM</span>
             </div>
@@ -50,7 +50,7 @@
                 <!-- <li><a href="{{ route('about') }}" class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li> -->
                 <li><a href="{{ route('services.index') }}" class="nav-link {{ request()->routeIs('services.*') ? 'active' : '' }}">Services</a></li>
                 <li><a href="{{ route('bridal-makeup') }}" class="nav-link {{ request()->routeIs('bridal-makeup') ? 'active' : '' }}">Bridal Makeup</a></li>
-                <li><a href="{{ route('artist') }}" class="nav-link {{ request()->routeIs('artist') ? 'active' : '' }}">Makeup Artist</a></li>
+                <!-- <li><a href="{{ route('artist') }}" class="nav-link {{ request()->routeIs('artist') ? 'active' : '' }}">Makeup Artist</a></li> -->
                 <li><a href="{{ route('bridal-packages') }}" class="nav-link {{ request()->routeIs('bridal-packages') ? 'active' : '' }}">Bridal Packages</a></li>
                 <li><a href="{{ route('gallery') }}" class="nav-link {{ request()->routeIs('gallery') ? 'active' : '' }}">Gallery</a></li>
                 <li><a href="{{ route('pricing') }}" class="nav-link {{ request()->routeIs('pricing') ? 'active' : '' }}">Pricing</a></li>
@@ -132,7 +132,7 @@
 
                 <div>
                     <h4 class="footer-heading">Visit Studio</h4>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📍 104 Luxury Square, Studio #4, MG Road, New Delhi 110001</p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📍 926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📞 Call Us: +91 88821 23089</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">✉️ Email: info@beholdbeauty.com</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem;">⏰ Studio Hours: 10:00 AM - 8:00 PM (All 7 Days)</p>
