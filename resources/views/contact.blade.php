@@ -34,6 +34,9 @@
                         <div>
                             <strong style="display: block; font-size: 1.1rem;">Phone & WhatsApp</strong>
                             <p style="color: var(--text-secondary);">+91 88821 23089</p>
+                            <a href="https://wa.me/918882123089?text=Hi%20beholdBeauty!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" style="color: var(--gold-primary); font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.4rem;">
+                                💬 Chat on WhatsApp ↗
+                            </a>
                         </div>
                     </div>
 
@@ -41,7 +44,7 @@
                         <div style="font-size: 1.8rem; color: var(--gold-primary);">✉️</div>
                         <div>
                             <strong style="display: block; font-size: 1.1rem;">Email Enquiries</strong>
-                            <p style="color: var(--text-secondary);">bookings@beholdbeauty.com</p>
+                            <p style="color: var(--text-secondary);"><a href="mailto:nagarshalu730@gmail.com" style="color: inherit;">nagarshalu730@gmail.com</a></p>
                         </div>
                     </div>
 

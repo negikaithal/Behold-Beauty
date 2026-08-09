@@ -134,7 +134,7 @@
                     <h4 class="footer-heading">Visit Studio</h4>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📍 926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📞 Call Us: +91 88821 23089</p>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">✉️ Email: info@beholdbeauty.com</p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">✉️ Email: nagarshalu730@gmail.com</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem;">⏰ Studio Hours: 10:00 AM - 8:00 PM (All 7 Days)</p>
                 </div>
             </div>
