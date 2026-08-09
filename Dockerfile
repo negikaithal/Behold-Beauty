@@ -35,7 +35,7 @@ RUN chmod -R 777 storage bootstrap/cache database
 RUN cp .env.example .env \
     && touch database/database.sqlite \
     && php artisan key:generate \
-    && php artisan migrate:force --seed
+    && php artisan migrate --force --seed
 
 # Copy Docker Nginx & Supervisor configs
 COPY docker/nginx.conf /etc/nginx/nginx.conf
