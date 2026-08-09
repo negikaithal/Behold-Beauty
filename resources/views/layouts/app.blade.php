@@ -22,13 +22,13 @@
         <div class="container">
             <div class="nav-contact-info">
                 <span>📍 104 Luxury Square, MG Road, Studio #4, New Delhi</span>
-                <span>📞 +91 98765 43210</span>
+                <span>📞 +91 88821 23089</span>
                 <span>⏰ Mon - Sun: 10:00 AM - 8:00 PM</span>
             </div>
             <div class="nav-top-socials">
                 <a href="https://instagram.com" target="_blank" style="margin-left: 10px;">Instagram</a>
                 <a href="https://facebook.com" target="_blank" style="margin-left: 10px;">Facebook</a>
-                <a href="https://wa.me/919876543210" target="_blank" style="margin-left: 10px;">WhatsApp</a>
+                <a href="https://wa.me/918882123089" target="_blank" style="margin-left: 10px;">WhatsApp</a>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
 
             <ul class="nav-links" id="navLinks">
                 <li><a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}">Home</a></li>
-                <li><a href="{{ route('about') }}" class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li>
+                <!-- <li><a href="{{ route('about') }}" class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li> -->
                 <li><a href="{{ route('services.index') }}" class="nav-link {{ request()->routeIs('services.*') ? 'active' : '' }}">Services</a></li>
                 <li><a href="{{ route('bridal-makeup') }}" class="nav-link {{ request()->routeIs('bridal-makeup') ? 'active' : '' }}">Bridal Makeup</a></li>
                 <li><a href="{{ route('artist') }}" class="nav-link {{ request()->routeIs('artist') ? 'active' : '' }}">Makeup Artist</a></li>
@@ -81,7 +81,7 @@
     <!-- Sticky Mobile Bottom Bar -->
     <div class="mobile-sticky-bar">
         <div class="bar-grid">
-            <a href="https://wa.me/919876543210?text=Hi%20beholdBeauty!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" class="btn btn-dark" style="padding: 0.6rem; font-size: 0.85rem;">
+            <a href="https://wa.me/918882123089?text=Hi%20beholdBeauty!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" class="btn btn-dark" style="padding: 0.6rem; font-size: 0.85rem;">
                 💬 WhatsApp
             </a>
             <a href="{{ route('booking.create') }}" class="btn btn-gold" style="padding: 0.6rem; font-size: 0.85rem;">
@@ -133,7 +133,7 @@
                 <div>
                     <h4 class="footer-heading">Visit Studio</h4>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📍 104 Luxury Square, Studio #4, MG Road, New Delhi 110001</p>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📞 Call Us: +91 98765 43210</p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">📞 Call Us: +91 88821 23089</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem;">✉️ Email: info@beholdbeauty.com</p>
                     <p style="color: var(--text-muted); font-size: 0.9rem;">⏰ Studio Hours: 10:00 AM - 8:00 PM (All 7 Days)</p>
                 </div>

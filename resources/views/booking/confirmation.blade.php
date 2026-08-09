@@ -59,7 +59,7 @@
             </div>
 
             <div style="display: flex; gap: 1rem; justify-content: center;">
-                <a href="https://wa.me/919876543210?text=Hi!%20I%20just%20submitted%20booking%20ref%20{{ $booking->booking_number }}%20for%20{{ urlencode($booking->customer_name) }}." target="_blank" class="btn btn-gold">
+                <a href="https://wa.me/918882123089?text=Hi!%20I%20just%20submitted%20booking%20ref%20{{ $booking->booking_number }}%20for%20{{ urlencode($booking->customer_name) }}." target="_blank" class="btn btn-gold">
                     💬 Connect on WhatsApp
                 </a>
                 <a href="{{ route('home') }}" class="btn btn-dark">

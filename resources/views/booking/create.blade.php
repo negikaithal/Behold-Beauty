@@ -45,7 +45,7 @@
                     <!-- Phone Number -->
                     <div class="form-group">
                         <label class="form-label" for="phone">Phone Number *</label>
-                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210" value="{{ old('phone') }}" required>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 88821 23089" value="{{ old('phone') }}" required>
                     </div>
 
                     <!-- Email -->

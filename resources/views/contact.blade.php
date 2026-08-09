@@ -30,7 +30,7 @@
                         <div style="font-size: 1.8rem; color: var(--gold-primary);">📞</div>
                         <div>
                             <strong style="display: block; font-size: 1.1rem;">Phone & WhatsApp</strong>
-                            <p style="color: var(--text-secondary);">+91 98765 43210 / +91 98765 43211</p>
+                            <p style="color: var(--text-secondary);">+91 88821 23089</p>
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@
 
                             <div class="form-group">
                                 <label class="form-label">Phone Number</label>
-                                <input type="tel" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+                                <input type="tel" name="phone" class="form-control" placeholder="+91 88821 23089" required>
                             </div>
 
                             <div class="form-group">

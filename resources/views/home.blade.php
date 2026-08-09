@@ -361,7 +361,7 @@
             <a href="{{ route('booking.create') }}" class="btn btn-gold" style="font-size: 1.1rem; padding: 1rem 2.5rem;">
                 ✨ Book Appointment Now
             </a>
-            <a href="https://wa.me/919876543210" target="_blank" class="btn btn-dark" style="font-size: 1.1rem; padding: 1rem 2.5rem;">
+            <a href="https://wa.me/918882123089" target="_blank" class="btn btn-dark" style="font-size: 1.1rem; padding: 1rem 2.5rem;">
                 💬 Chat on WhatsApp
             </a>
         </div>
