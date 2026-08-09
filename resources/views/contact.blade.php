@@ -23,6 +23,9 @@
                         <div>
                             <strong style="display: block; font-size: 1.1rem;">Studio Address</strong>
                             <p style="color: var(--text-secondary);">926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</p>
+                            <a href="https://maps.app.goo.gl/6YVHd8qf6zK62TAy8" target="_blank" style="color: var(--gold-primary); font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.4rem;">
+                                📍 Open Location on Google Maps ↗
+                            </a>
                         </div>
                     </div>
 
@@ -51,9 +54,14 @@
                     </div>
                 </div>
 
-                <!-- Google Maps iFrame -->
-                <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--rose-border); box-shadow: var(--shadow-soft); height: 280px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.562017260538!2d77.2177!3d28.6139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzUwLjAiTiA3N8KwMTMnMDMuNyJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!-- Google Maps Container -->
+                <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--rose-border); box-shadow: var(--shadow-soft); position: relative;">
+                    <iframe src="https://maps.google.com/maps?q=926,%20Block%20H,%20RZH,%20Raj%20Nagar%20II%20Extension,%20Palam,%20Delhi&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div style="padding: 0.75rem 1rem; background: var(--rose-light); text-align: center; border-top: 1px solid var(--rose-border);">
+                        <a href="https://maps.app.goo.gl/6YVHd8qf6zK62TAy8" target="_blank" class="btn btn-gold" style="font-size: 0.85rem; padding: 0.5rem 1.5rem;">
+                            🗺️ Get Directions on Google Maps
+                        </a>
+                    </div>
                 </div>
             </div>
 

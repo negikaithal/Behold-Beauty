@@ -21,7 +21,7 @@
     <div class="navbar-top">
         <div class="container">
             <div class="nav-contact-info">
-                <span>📍 926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</span>
+                <a href="https://maps.app.goo.gl/6YVHd8qf6zK62TAy8" target="_blank" style="color: inherit;">📍 926, Block H, RZH, Raj Nagar II Extension, Palam, Delhi</a>
                 <span>📞 +91 88821 23089</span>
                 <span>⏰ Mon - Sun: 10:00 AM - 8:00 PM</span>
             </div>
