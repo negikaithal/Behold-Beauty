@@ -6,6 +6,7 @@ use App\Models\Service;
 use App\Models\BridalPackage;
 use App\Models\PortfolioItem;
 use App\Models\Review;
+use App\Models\Booking;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
@@ -310,6 +311,53 @@ class DatabaseSeeder extends Seeder
 
         foreach ($reviews as $rev) {
             Review::create($rev);
+        }
+
+        // 5. SEED BOOKINGS
+        $bookings = [
+            [
+                'booking_number' => 'BB-65B201A',
+                'customer_name' => 'Dr. Sneha Roy',
+                'phone' => '+91 98765 43210',
+                'email' => 'sneha.roy@gmail.com',
+                'service_category' => 'Bridal Package',
+                'specific_service' => 'VIP Royalty Bridal Package',
+                'preferred_date' => now()->addDays(3)->format('Y-m-d'),
+                'preferred_time' => '11:00 AM',
+                'number_of_people' => 2,
+                'message' => 'Need trial for wedding makeup on day 1.',
+                'status' => 'Pending',
+            ],
+            [
+                'booking_number' => 'BB-65B202B',
+                'customer_name' => 'Ananya Sharma',
+                'phone' => '+91 98111 22334',
+                'email' => 'ananya.s@outlook.com',
+                'service_category' => 'Bridal Makeup',
+                'specific_service' => 'Airbrush Bridal Makeup',
+                'preferred_date' => now()->addDays(5)->format('Y-m-d'),
+                'preferred_time' => '02:00 PM',
+                'number_of_people' => 1,
+                'message' => 'Please assign senior makeup artist Shalu.',
+                'status' => 'Confirmed',
+            ],
+            [
+                'booking_number' => 'BB-65B203C',
+                'customer_name' => 'Pooja Kapoor',
+                'phone' => '+91 99887 76655',
+                'email' => 'pooja.k@yahoo.com',
+                'service_category' => 'Hair Services',
+                'specific_service' => 'Keratin Treatment',
+                'preferred_date' => now()->addDays(1)->format('Y-m-d'),
+                'preferred_time' => '04:00 PM',
+                'number_of_people' => 1,
+                'message' => 'Looking forward to keratin hair smoothening.',
+                'status' => 'Completed',
+            ],
+        ];
+
+        foreach ($bookings as $b) {
+            Booking::create($b);
         }
     }
 }

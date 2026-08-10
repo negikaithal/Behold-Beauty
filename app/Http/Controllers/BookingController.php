@@ -71,4 +71,60 @@ class BookingController extends Controller
         $booking = Booking::where('booking_number', $bookingNumber)->firstOrFail();
         return view('booking.confirmation', compact('booking'));
     }
+
+    public function index(Request $request)
+    {
+        $query = Booking::query();
+
+        // Search Filter
+        if ($request->filled('search')) {
+            $search = $request->input('search');
+            $query->where(function ($q) use ($search) {
+                $q->where('customer_name', 'like', "%{$search}%")
+                  ->orWhere('phone', 'like', "%{$search}%")
+                  ->orWhere('email', 'like', "%{$search}%")
+                  ->orWhere('booking_number', 'like', "%{$search}%")
+                  ->orWhere('specific_service', 'like', "%{$search}%");
+            });
+        }
+
+        // Status Filter
+        if ($request->filled('status') && $request->input('status') !== 'all') {
+            $query->where('status', $request->input('status'));
+        }
+
+        $bookings = $query->orderBy('created_at', 'desc')->paginate(15);
+
+        // Stats calculation
+        $stats = [
+            'total' => Booking::count(),
+            'pending' => Booking::where('status', 'Pending')->count(),
+            'confirmed' => Booking::where('status', 'Confirmed')->count(),
+            'completed' => Booking::where('status', 'Completed')->count(),
+            'cancelled' => Booking::where('status', 'Cancelled')->count(),
+        ];
+
+        return view('admin.bookings.index', compact('bookings', 'stats'));
+    }
+
+    public function updateStatus(Request $request, $id)
+    {
+        $request->validate([
+            'status' => 'required|in:Pending,Confirmed,Completed,Cancelled',
+        ]);
+
+        $booking = Booking::findOrFail($id);
+        $booking->update(['status' => $request->input('status')]);
+
+        return back()->with('success', "Booking #{$booking->booking_number} status updated to {$booking->status}.");
+    }
+
+    public function destroy($id)
+    {
+        $booking = Booking::findOrFail($id);
+        $num = $booking->booking_number;
+        $booking->delete();
+
+        return back()->with('success', "Booking #{$num} has been deleted.");
+    }
 }

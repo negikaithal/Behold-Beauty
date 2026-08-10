@@ -116,6 +116,7 @@
                         <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
                         <li><a href="{{ route('pricing') }}">Pricing Menu</a></li>
                         <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                        <li><a href="{{ route('admin.bookings.index') }}" style="color: var(--gold-primary); font-weight: 600;">📋 Admin Bookings</a></li>
                     </ul>
                 </div>
 

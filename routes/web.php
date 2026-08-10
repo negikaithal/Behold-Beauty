@@ -29,3 +29,8 @@ Route::get('/services/{slug}', [ServiceController::class, 'show'])->name('servic
 Route::get('/book-appointment', [BookingController::class, 'create'])->name('booking.create');
 Route::post('/book-appointment', [BookingController::class, 'store'])->name('booking.store');
 Route::get('/booking-confirmation/{booking_number}', [BookingController::class, 'confirmation'])->name('booking.confirmation');
+
+// Admin Bookings Dashboard Routes
+Route::get('/admin/bookings', [BookingController::class, 'index'])->name('admin.bookings.index');
+Route::patch('/admin/bookings/{id}', [BookingController::class, 'updateStatus'])->name('admin.bookings.update');
+Route::delete('/admin/bookings/{id}', [BookingController::class, 'destroy'])->name('admin.bookings.destroy');
