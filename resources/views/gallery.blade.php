@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Photo Gallery & Lookbook | beholdBeauty')
+@section('title', 'Photo Gallery & Lookbook | Behold Beauty Makeup Studio')
 
 @section('content')
 <section style="padding: 4rem 0 2rem 0; background: var(--bg-secondary); text-align: center;">

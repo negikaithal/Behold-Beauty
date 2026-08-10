@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'beholdBeauty | Luxury Beauty Parlour & Bridal Makeup Artist')
+@section('title', 'Behold Beauty Makeup Studio | Luxury Beauty Parlour & Bridal Makeup Artist')
 
 @section('content')
 
@@ -44,7 +44,7 @@
 
             <div class="hero-media">
                 <div class="hero-img-wrap">
-                    <img src="{{ asset('images/hero_bridal_beauty.jpg') }}" alt="High Fashion Indian Bridal Makeup by beholdBeauty">
+                    <img src="{{ asset('images/hero_bridal_beauty.jpg') }}" alt="High Fashion Indian Bridal Makeup by Behold Beauty Makeup Studio">
                 </div>
                 <div class="hero-floating-card">
                     <div class="icon-gold">💄</div>
@@ -215,7 +215,7 @@
 
             <div class="ba-after-wrapper">
                 <img src="{{ asset('images/after_glam.jpg') }}" class="ba-image" alt="Transformed HD Bridal Makeup">
-                <div class="ba-badge ba-badge-after">AFTER (beholdBeauty Glam)</div>
+                <div class="ba-badge ba-badge-after">AFTER (Behold Beauty Glam)</div>
             </div>
 
             <div class="ba-slider-handle">
@@ -229,7 +229,7 @@
 <section style="padding: 6rem 0;">
     <div class="container">
         <div class="section-title-wrap">
-            <span class="section-tag">The beholdBeauty Gold Standard</span>
+            <span class="section-tag">The Behold Beauty Gold Standard</span>
             <h2 class="section-heading">Why Brides Trust Us</h2>
             <p class="section-subheading">We combine artistic passion with strict hygienic safety standards and luxury comfort.</p>
         </div>
@@ -304,7 +304,7 @@
         <div class="section-title-wrap">
             <span class="section-tag">Client Love</span>
             <h2 class="section-heading">Words From Our Brides</h2>
-            <p class="section-subheading">Read real reviews from women who entrusted their special day to beholdBeauty.</p>
+            <p class="section-subheading">Read real reviews from women who entrusted their special day to Behold Beauty Makeup Studio.</p>
         </div>
 
         <div class="reviews-grid">
@@ -333,7 +333,7 @@
 <section style="padding: 4rem 0; background: var(--bg-dark); color: #FFF;">
     <div class="container" style="text-align: center;">
         <span class="section-tag">Follow Us On Instagram</span>
-        <h2 class="section-heading" style="color: #FFF; font-size: 2.2rem; margin-bottom: 2rem;">@beholdbeauty_studio</h2>
+        <h2 class="section-heading" style="color: #FFF; font-size: 2.2rem; margin-bottom: 2rem;">@beholdbeautymakeupstudio</h2>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
             <img src="{{ asset('images/hero_bridal_beauty.jpg') }}" alt="Insta Post 1" style="border-radius: var(--radius-sm); aspect-ratio: 1/1; object-fit: cover;">
@@ -344,7 +344,7 @@
         </div>
 
         <a href="https://instagram.com" target="_blank" class="btn btn-gold">
-            📸 Follow @beholdbeauty_studio
+            📸 Follow @beholdbeautymakeupstudio
         </a>
     </div>
 </section>

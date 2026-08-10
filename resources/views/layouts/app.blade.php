@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'beholdBeauty | Luxury Beauty Parlour & Professional Makeup Artist')</title>
+    <title>@yield('title', 'Behold Beauty Makeup Studio | Luxury Beauty Parlour & Professional Makeup Artist')</title>
     <meta name="description" content="Premium Beauty Parlour & Professional Makeup Artist specializing in HD Bridal Makeup, Airbrush Makeup, Hair Styling, Luxury Facials, and Complete Pre-Bridal Packages.">
     
     <!-- CSS Assets -->
@@ -37,8 +37,8 @@
     <nav class="navbar">
         <div class="container">
             <a href="{{ route('home') }}" class="navbar-brand">
-                <div class="brand-name">behold<span>Beauty</span></div>
-                <div class="brand-sub">Luxury Studio & Bridal Lounge</div>
+                <div class="brand-name">Behold <span>Beauty</span></div>
+                <div class="brand-sub">Makeup Studio</div>
             </a>
 
             <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
@@ -81,7 +81,7 @@
     <!-- Sticky Mobile Bottom Bar -->
     <div class="mobile-sticky-bar">
         <div class="bar-grid">
-            <a href="https://wa.me/918882123089?text=Hi%20beholdBeauty!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" class="btn btn-dark" style="padding: 0.6rem; font-size: 0.85rem;">
+            <a href="https://wa.me/918882123089?text=Hi%20Behold%20Beauty%20Makeup%20Studio!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" class="btn btn-dark" style="padding: 0.6rem; font-size: 0.85rem;">
                 💬 WhatsApp
             </a>
             <a href="{{ route('booking.create') }}" class="btn btn-gold" style="padding: 0.6rem; font-size: 0.85rem;">
@@ -95,8 +95,9 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="brand-name">behold<span>Beauty</span></div>
-                    <p>India's premier luxury beauty studio & bridal lounge. Crafting unforgettable bridal makeovers, glow facials, precision haircutting, and high-fashion styling with gold-standard elegance.</p>
+                    <div class="brand-name">Behold <span>Beauty</span></div>
+                    <div class="brand-sub" style="margin-bottom: 0.75rem;">Makeup Studio</div>
+                    <p>India's premier luxury makeup studio & bridal lounge. Crafting unforgettable bridal makeovers, glow facials, precision haircutting, and high-fashion styling with gold-standard elegance.</p>
                     <div style="display: flex; gap: 1rem; font-size: 1.2rem;">
                         <a href="#" style="color: var(--gold-primary);">📸 Instagram</a>
                         <a href="#" style="color: var(--gold-primary);">📘 Facebook</a>
@@ -140,7 +141,7 @@
             </div>
 
             <div class="footer-bottom">
-                <div>&copy; {{ date('Y') }} beholdBeauty Studio. All Rights Reserved.</div>
+                <div>&copy; {{ date('Y') }} Behold Beauty Makeup Studio. All Rights Reserved.</div>
                 <div>Crafted with Gold Elegance & Precision for Royalty.</div>
             </div>
         </div>

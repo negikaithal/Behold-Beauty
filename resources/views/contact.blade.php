@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us & Location | beholdBeauty Studio')
+@section('title', 'Contact Us & Location | Behold Beauty Makeup Studio')
 
 @section('content')
 <section style="padding: 4rem 0 2rem 0; background: var(--bg-secondary); text-align: center;">
@@ -34,7 +34,7 @@
                         <div>
                             <strong style="display: block; font-size: 1.1rem;">Phone & WhatsApp</strong>
                             <p style="color: var(--text-secondary);">+91 88821 23089</p>
-                            <a href="https://wa.me/918882123089?text=Hi%20beholdBeauty!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" style="color: var(--gold-primary); font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.4rem;">
+                            <a href="https://wa.me/918882123089?text=Hi%20Behold%20Beauty%20Makeup%20Studio!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" style="color: var(--gold-primary); font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.4rem;">
                                 💬 Chat on WhatsApp ↗
                             </a>
                         </div>

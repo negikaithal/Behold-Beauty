@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us | beholdBeauty Luxury Salon & Bridal Lounge')
+@section('title', 'About Us | Behold Beauty Makeup Studio')
 
 @section('content')
 <section style="padding: 5rem 0; background: var(--bg-secondary);">
@@ -8,7 +8,7 @@
         <span class="section-tag">Our Heritage</span>
         <h1 class="section-heading" style="font-size: 3.5rem;">Redefining Elegance & Luxury</h1>
         <p class="section-subheading">
-            Established with a passion for high-fashion artistry and clinical hygiene, beholdBeauty is a sanctuary designed for women who demand perfection.
+            Established with a passion for high-fashion artistry and clinical hygiene, Behold Beauty Makeup Studio is a sanctuary designed for women who demand perfection.
         </p>
     </div>
 </section>
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div>
-                <img src="{{ asset('images/salon_interior.jpg') }}" alt="beholdBeauty Studio Interior" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-hover);">
+                <img src="{{ asset('images/salon_interior.jpg') }}" alt="Behold Beauty Makeup Studio Interior" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-hover);">
             </div>
         </div>
     </div>

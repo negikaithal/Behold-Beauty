@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Booking Confirmed | beholdBeauty')
+@section('title', 'Booking Confirmed | Behold Beauty Makeup Studio')
 
 @section('content')
 <section style="padding: 5rem 0;" class="bg-secondary">

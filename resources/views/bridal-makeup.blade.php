@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'HD & Airbrush Bridal Makeup Lounge | beholdBeauty')
+@section('title', 'HD & Airbrush Bridal Makeup Lounge | Behold Beauty Makeup Studio')
 
 @section('content')
 

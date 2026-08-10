@@ -1,5 +1,5 @@
 /* ==========================================================================
-   beholdBeauty - Interactive Client Side Engine
+   Behold Beauty Makeup Studio - Interactive Client Side Engine
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {

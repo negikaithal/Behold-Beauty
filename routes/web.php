@@ -7,7 +7,7 @@ use App\Http\Controllers\BookingController;
 
 /*
 |--------------------------------------------------------------------------
-| beholdBeauty Web Routes
+| Behold Beauty Makeup Studio Web Routes
 |--------------------------------------------------------------------------
 */
 
